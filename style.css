@@ -1,0 +1,96 @@
+body {
+	display: grid;
+	min-height: 100vh;
+	place-content: center;
+	color: aqua;
+	gap: 10px;
+	text-align: center;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 25px;
+	width: 100%;
+}
+
+.board {
+	border-collapse: collapse;
+	margin: auto;
+	border: 1px solid #344861;
+	padding: 0;
+}
+
+button {
+	width: 100px;
+	height: auto;
+}
+
+.cell input {
+	height: 50px !important;
+	width: 50pxs !important;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	text-align: center;
+}
+
+.cell {
+	height: 60px;
+	width: 60px;
+	padding: 0;
+	border: 1px solid #bec6d4;
+}
+
+.color {
+	background-color: #e8e8e8;
+}
+
+.blue {
+	background-color: #89cff0 !important;
+}
+
+.red {
+	background-color: red;
+}
+
+.br-b {
+	border-bottom: 2px solid #344861;
+}
+
+.br-t {
+	border-top: 2px solid #344861;
+}
+
+.br-r {
+	border-right: 2px solid #344861;
+}
+
+.br-l {
+	border-left: 2px solid #344861;
+}
+
+.grid {
+	gap: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input:hover {
+	background-color: #5f9ea0;
+}
+
+.light {
+	background-color: rgba(14, 97, 133, 0.164);;
+}
+
+button {
+	border: 0px;
+	font-size: 25px;
+}
+
+.btn {
+	position: absolute;
+	left: 45%;
+	width: 10%;
+}
